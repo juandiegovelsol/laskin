@@ -18,3 +18,5 @@ app.use("/wolkvox", wolkvoxRouter);
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
+
+export { app };
